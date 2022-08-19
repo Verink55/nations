@@ -1,0 +1,11 @@
+-----Ejercicio 1-----
+	Punto 1
+	>>>Country::select('name','area')->where('name','like','A%')->min('area')
+
+	Punto 2
+	>>> Region::find(21)->paises()->select('name','national_day')->where('name','like','L%')->get()
+
+	Punto 4
+	>>> Country::find(224)->idiomas()->where('official','=','1')->get()
+
+___________________________________________________________________________________________________________

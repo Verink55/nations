@@ -18,5 +18,4 @@ class Region extends Model
     public function paises(){
         return $this ->hasMany(Country::class, 'region_id');
         }
-
 }
